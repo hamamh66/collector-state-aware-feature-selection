@@ -1,0 +1,73 @@
+primitive,c_type,bytes,description
+n_f,uint32_t,4,forward packet count
+n_b,uint32_t,4,backward packet count
+hs_f,uint32_t,4,"forward header bytes, sum"
+hn_f,uint8_t,1,"forward header bytes, min"
+hx_f,uint8_t,1,"forward header bytes, max"
+hs_b,uint32_t,4,"backward header bytes, sum"
+hn_b,uint8_t,1,"backward header bytes, min"
+hx_b,uint8_t,1,"backward header bytes, max"
+fin,uint32_t,4,FIN count
+syn,uint32_t,4,SYN count
+rst,uint32_t,4,RST count
+ack,uint32_t,4,ACK count
+psh_f,uint32_t,4,forward PSH count
+psh_b,uint32_t,4,backward PSH count
+urg_f,uint32_t,4,forward URG count
+urg_b,uint32_t,4,backward URG count
+cwr,uint32_t,4,CWR count
+ece,uint32_t,4,ECE count
+d_f,uint32_t,4,forward data-packet count
+d_b,uint32_t,4,backward data-packet count
+ps_f,uint64_t,8,"forward payload bytes, sum"
+pq_f,uint64_t,8,"forward payload bytes, sum of squares"
+pn_f,uint16_t,2,"forward payload bytes, min"
+px_f,uint16_t,2,"forward payload bytes, max"
+ps_b,uint64_t,8,"backward payload bytes, sum"
+pq_b,uint64_t,8,"backward payload bytes, sum of squares"
+pn_b,uint16_t,2,"backward payload bytes, min"
+px_b,uint16_t,2,"backward payload bytes, max"
+t_f,uint64_t,8,time of last forward packet
+t_b,uint64_t,8,time of last backward packet
+is_f,uint64_t,8,"forward inter-arrival, sum"
+iq_f,double,8,"forward inter-arrival, sum of squares"
+in_f,uint64_t,8,"forward inter-arrival, min"
+ix_f,uint64_t,8,"forward inter-arrival, max"
+is_b,uint64_t,8,"backward inter-arrival, sum"
+iq_b,double,8,"backward inter-arrival, sum of squares"
+in_b,uint64_t,8,"backward inter-arrival, min"
+ix_b,uint64_t,8,"backward inter-arrival, max"
+iq,double,8,"flow inter-arrival, sum of squares"
+in_,uint64_t,8,"flow inter-arrival, min"
+ix,uint64_t,8,"flow inter-arrival, max"
+sub,uint32_t,4,subflow count
+a_new,uint8_t,1,active phase: new/open flags
+a_cur,uint64_t,8,active phase: running length
+a_n,uint32_t,4,"active phases, count"
+a_s,uint64_t,8,"active phases, sum"
+a_q,double,8,"active phases, sum of squares"
+a_mn,uint64_t,8,"active phases, min"
+a_mx,uint64_t,8,"active phases, max"
+l_n,uint32_t,4,"idle periods, count"
+l_s,uint64_t,8,"idle periods, sum"
+l_q,double,8,"idle periods, sum of squares"
+l_mn,uint64_t,8,"idle periods, min"
+l_mx,uint64_t,8,"idle periods, max"
+pwf,uint8_t,1,bulk: previous data packet was forward
+btp_f,uint32_t,4,"forward bulk candidate, packets"
+btb_f,uint32_t,4,"forward bulk candidate, bytes"
+btt_f,uint64_t,8,"forward bulk candidate, duration"
+bc_f,uint32_t,4,"forward bulks, count"
+bp_f,uint32_t,4,"forward bulks, packets"
+bb_f,uint64_t,8,"forward bulks, bytes"
+bt_f,uint64_t,8,"forward bulks, duration"
+btp_b,uint32_t,4,"backward bulk candidate, packets"
+btb_b,uint32_t,4,"backward bulk candidate, bytes"
+btt_b,uint64_t,8,"backward bulk candidate, duration"
+bc_b,uint32_t,4,"backward bulks, count"
+bp_b,uint32_t,4,"backward bulks, packets"
+bb_b,uint64_t,8,"backward bulks, bytes"
+bt_b,uint64_t,8,"backward bulks, duration"
+wi_f,uint16_t,2,forward initial TCP window
+wl_f,uint16_t,2,forward last TCP window
+wi_b,uint16_t,2,backward initial TCP window

@@ -1,0 +1,17 @@
+15 folds to evaluate; 15 budgets, 6 random orderings per fold
+seed 42 fold 0: 147 + 136 forests in 242s | full state 384 B macro-F1 0.9623 | selected 7 B -> 0.9419 | elapsed 4.3 min, remaining ~60 min
+seed 42 fold 1: 151 + 160 forests in 257s | full state 384 B macro-F1 0.9493 | selected 8 B -> 0.9389 | elapsed 8.5 min, remaining ~55 min
+seed 42 fold 2: 151 + 172 forests in 448s | full state 384 B macro-F1 0.9418 | selected 9 B -> 0.9347 | elapsed 16.0 min, remaining ~64 min
+seed 42 fold 3: 150 + 341 forests in 335s | full state 384 B macro-F1 0.9663 | selected 10 B -> 0.9601 | elapsed 21.6 min, remaining ~59 min
+seed 42 fold 4: 149 + 221 forests in 288s | full state 384 B macro-F1 0.9459 | selected 17 B -> 0.9215 | elapsed 26.4 min, remaining ~53 min
+seed 43 fold 0: 144 + 167 forests in 259s | full state 384 B macro-F1 0.9301 | selected 10 B -> 0.9213 | elapsed 30.9 min, remaining ~46 min
+seed 43 fold 1: 151 + 331 forests in 315s | full state 384 B macro-F1 0.9664 | selected 9 B -> 0.9716 | elapsed 36.2 min, remaining ~41 min
+seed 43 fold 2: 148 + 170 forests in 254s | full state 384 B macro-F1 0.9571 | selected 10 B -> 0.9273 | elapsed 40.4 min, remaining ~35 min
+seed 43 fold 3: 150 + 209 forests in 277s | full state 384 B macro-F1 0.9685 | selected 8 B -> 0.9277 | elapsed 45.0 min, remaining ~30 min
+seed 43 fold 4: 152 + 233 forests in 282s | full state 384 B macro-F1 0.9568 | selected 9 B -> 0.9759 | elapsed 49.7 min, remaining ~25 min
+seed 44 fold 0: 144 + 167 forests in 249s | full state 384 B macro-F1 0.9713 | selected 9 B -> 0.9520 | elapsed 54.1 min, remaining ~20 min
+seed 44 fold 1: 141 + 133 forests in 234s | full state 384 B macro-F1 0.9644 | selected 8 B -> 0.9648 | elapsed 58.0 min, remaining ~14 min
+seed 44 fold 2: 138 + 160 forests in 239s | full state 384 B macro-F1 0.9588 | selected 9 B -> 0.9564 | elapsed 62.0 min, remaining ~10 min
+seed 44 fold 3: 144 + 148 forests in 249s | full state 384 B macro-F1 0.9435 | selected 7 B -> 0.9304 | elapsed 66.1 min, remaining ~5 min
+seed 44 fold 4: 152 + 194 forests in 267s | full state 384 B macro-F1 0.9180 | selected 10 B -> 0.9255 | elapsed 70.5 min, remaining ~0 min
+all folds evaluated

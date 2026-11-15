@@ -1,0 +1,81 @@
+feature,state_bytes,primitives
+proto,0,
+flow_duration,0,
+fwd_pkts_tot,4,n_f
+bwd_pkts_tot,4,n_b
+fwd_data_pkts_tot,4,d_f
+bwd_data_pkts_tot,4,d_b
+fwd_pkts_per_sec,4,n_f
+bwd_pkts_per_sec,4,n_b
+flow_pkts_per_sec,8,n_b n_f
+down_up_ratio,8,n_b n_f
+fwd_header_size_tot,4,hs_f
+fwd_header_size_min,1,hn_f
+fwd_header_size_max,1,hx_f
+bwd_header_size_tot,4,hs_b
+bwd_header_size_min,1,hn_b
+bwd_header_size_max,1,hx_b
+flow_FIN_flag_count,4,fin
+flow_SYN_flag_count,4,syn
+flow_RST_flag_count,4,rst
+fwd_PSH_flag_count,4,psh_f
+bwd_PSH_flag_count,4,psh_b
+flow_ACK_flag_count,4,ack
+fwd_URG_flag_count,4,urg_f
+bwd_URG_flag_count,4,urg_b
+flow_CWR_flag_count,4,cwr
+flow_ECE_flag_count,4,ece
+fwd_pkts_payload.min,2,pn_f
+fwd_pkts_payload.max,2,px_f
+fwd_pkts_payload.tot,8,ps_f
+fwd_pkts_payload.avg,12,n_f ps_f
+fwd_pkts_payload.std,20,n_f pq_f ps_f
+bwd_pkts_payload.min,2,pn_b
+bwd_pkts_payload.max,2,px_b
+bwd_pkts_payload.tot,8,ps_b
+bwd_pkts_payload.avg,12,n_b ps_b
+bwd_pkts_payload.std,20,n_b pq_b ps_b
+flow_pkts_payload.min,4,pn_b pn_f
+flow_pkts_payload.max,4,px_b px_f
+flow_pkts_payload.tot,16,ps_b ps_f
+flow_pkts_payload.avg,24,n_b n_f ps_b ps_f
+flow_pkts_payload.std,40,n_b n_f pq_b pq_f ps_b ps_f
+fwd_iat.min,16,in_f t_f
+fwd_iat.max,16,ix_f t_f
+fwd_iat.tot,16,is_f t_f
+fwd_iat.avg,20,is_f n_f t_f
+fwd_iat.std,28,iq_f is_f n_f t_f
+bwd_iat.min,16,in_b t_b
+bwd_iat.max,16,ix_b t_b
+bwd_iat.tot,16,is_b t_b
+bwd_iat.avg,20,is_b n_b t_b
+bwd_iat.std,28,iq_b is_b n_b t_b
+flow_iat.min,8,in_
+flow_iat.max,8,ix
+flow_iat.tot,0,
+flow_iat.avg,8,n_b n_f
+flow_iat.std,16,iq n_b n_f
+payload_bytes_per_second,16,ps_b ps_f
+fwd_subflow_pkts,8,n_f sub
+bwd_subflow_pkts,8,n_b sub
+fwd_subflow_bytes,12,ps_f sub
+bwd_subflow_bytes,12,ps_b sub
+fwd_bulk_bytes,29,bb_f bc_f btb_f btp_f pwf t_f
+bwd_bulk_bytes,29,bb_b bc_b btb_b btp_b pwf t_b
+fwd_bulk_packets,21,bc_f bp_f btp_f pwf t_f
+bwd_bulk_packets,21,bc_b bp_b btp_b pwf t_b
+fwd_bulk_rate,41,bb_f bt_f btb_f btp_f btt_f pwf t_f
+bwd_bulk_rate,41,bb_b bt_b btb_b btp_b btt_b pwf t_b
+active.min,17,a_cur a_mn a_new
+active.max,17,a_cur a_mx a_new
+active.tot,8,a_s
+active.avg,13,a_n a_new a_s
+active.std,29,a_cur a_n a_new a_q a_s
+idle.min,8,l_mn
+idle.max,8,l_mx
+idle.tot,8,l_s
+idle.avg,12,l_n l_s
+idle.std,20,l_n l_q l_s
+fwd_init_window_size,6,n_f wi_f
+bwd_init_window_size,6,n_b wi_b
+fwd_last_window_size,2,wl_f

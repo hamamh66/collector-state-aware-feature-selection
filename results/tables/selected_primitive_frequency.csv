@@ -1,0 +1,13 @@
+primitive,folds_selected,bytes,description
+px_f,14,2,"forward payload bytes, max"
+psh_f,11,4,forward PSH count
+hn_f,9,1,"forward header bytes, min"
+wl_f,8,2,forward last TCP window
+hx_f,7,1,"forward header bytes, max"
+urg_f,4,4,forward URG count
+hx_b,3,1,"backward header bytes, max"
+px_b,3,2,"backward payload bytes, max"
+pn_f,2,2,"forward payload bytes, min"
+hn_b,1,1,"backward header bytes, min"
+pn_b,1,2,"backward payload bytes, min"
+fin,1,4,FIN count

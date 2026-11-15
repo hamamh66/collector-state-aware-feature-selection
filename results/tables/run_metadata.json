@@ -1,0 +1,57 @@
+{
+  "python": "3.13.18",
+  "system": "Linux-6.18.44-fc-v470-x86_64-with-glibc2.39",
+  "sklearn": "1.9.1",
+  "shap": "0.54.1",
+  "pandas": "3.0.5",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "gcc": "gcc (Ubuntu 13.3.0-6ubuntu2~24.04.1) 13.3.0",
+  "dataset_sha256": "4abec3353b994d3e369996024095c64b18778e23b6d42e1302ac2cfce74825c4",
+  "parameters": {
+    "seeds": [
+      42,
+      43,
+      44
+    ],
+    "folds": 5,
+    "trees": 100,
+    "budgets": [
+      0,
+      2,
+      4,
+      6,
+      8,
+      12,
+      16,
+      24,
+      32,
+      48,
+      64,
+      96,
+      128,
+      192,
+      384
+    ],
+    "deltas": [
+      0.02,
+      0.01,
+      0.005
+    ],
+    "greedy_cap": 4000,
+    "greedy_trees": 50,
+    "shortlist": 4,
+    "worst_classes": 2,
+    "min_gain": 0.001,
+    "max_measured": 20,
+    "random_orderings": 6,
+    "bootstrap": 1000,
+    "bench": {
+      "flows": 65536,
+      "packets": 2000000,
+      "reps": 7,
+      "rounds": 5
+    }
+  },
+  "cpu": "Intel(R) Xeon(R) Processor @ 2.30GHz"
+}
