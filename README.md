@@ -1,5 +1,7 @@
 # Collector-state-aware feature selection for IoT gateway flow monitoring
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24250391.svg)](https://doi.org/10.5281/zenodo.24250391)
+
 Open-source implementation and complete results for state-aware two-pass feature selection
 on the RT-IoT2022 dataset.
 
@@ -89,6 +91,10 @@ as shortcuts on this benchmark; their effect is reported separately
 RT-IoT2022 is distributed by the UCI Machine Learning Repository and is not included here.
 Its flow features are produced by the Zeek FlowMeter script
 (https://github.com/zeek-flowmeter/zeek-flowmeter).
+
+## Archive
+
+Version 1.0.0 is archived on Zenodo: https://doi.org/10.5281/zenodo.24250391
 
 ## License
 
