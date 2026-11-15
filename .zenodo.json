@@ -1,0 +1,16 @@
+{
+  "title": "Collector-state-aware feature selection for IoT gateway flow monitoring",
+  "description": "Open-source repository providing a fully reproducible implementation of collector-state-aware two-pass feature selection for flow monitoring at IoT gateways: a cost model mapping the Zeek FlowMeter features of RT-IoT2022 to per-flow collector state, a sliceable C flow collector with exactness checks, two-pass state selection (class-specific SHAP shortlisting and measured out-of-bag gain per byte with a stopping rule), and the complete cross-validated evaluation with all result files.",
+  "upload_type": "software",
+  "license": "MIT",
+  "keywords": ["Internet of Things", "edge gateway", "flow monitoring", "intrusion detection", "cost-aware feature selection", "RT-IoT2022"],
+  "creators": [
+    {"name": "Ghadi, Yazeed Yasin", "affiliation": "Al Ain University"},
+    {"name": "Saqib, Sheikh Muhammad", "affiliation": "Gomal University"},
+    {"name": "Zayoud, Rahma", "affiliation": "Université de Moncton"},
+    {"name": "Mazhar, Tehseen", "affiliation": "National College of Business Administration and Economics"},
+    {"name": "Alzahrani, Abdullah J.", "affiliation": "University of Ha'il"},
+    {"name": "Guizani, Sghaier", "affiliation": "Alfaisal University"},
+    {"name": "Hamam, Habib", "affiliation": "Université de Moncton"}
+  ]
+}
